@@ -17,15 +17,668 @@
         type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
-    <link href="css/maintenance.css" rel="stylesheet" />
 </head>
 
-<body class="maintenance">
-    <div class="container">
-        <h1>Portfolio</h1>
-        <div>
-            <p>Actuellement le site est en maintenance pour une durée indéterminer.</p>
-            <p>Désolé de la gêne occassionnée !</p>
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Portfolio</a>
+            <button
+                class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
+                type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                            href="#portfolio">Projets</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                            href="#about">Présentation</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead bg-primary text-white text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <!-- Masthead Avatar Image-->
+            <img class="masthead-avatar mb-rounded-circle" src="assets/img/portfolio/moi.jpg" alt="" />
+            <!-- Masthead Heading-->
+            <h1 class="masthead-heading text-uppercase mb-0">LAUDE Thibault</h1>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Masthead Subheading-->
+            <p class="masthead-subheading font-weight-light mb-0">Etudiant en Informatique</p>
+        </div>
+    </header>
+    <!-- Portfolio Section-->
+    <section class="page-section portfolio" id="portfolio">
+        <div class="container">
+            <!-- Portfolio Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Mes Projets</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Portfolio Grid Items-->
+            <div class="row justify-content-center">
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModalGD">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/logo_gloss.svg" alt="logo de gloss design" />
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModalAJ">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/rouages.png" alt="rouages" />
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModalTW">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/tower.png" alt="tour" />
+                    </div>
+                </div>
+                <!-- Portfolio Item 1-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content my-auto w-100 text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/gsb.jpg" alt="logo de gsb" />
+                    </div>
+                </div>
+                <!-- Portfolio Item 2-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/nolark.jpg" alt="logo de nolark" />
+                    </div>
+                </div>
+                <!-- Portfolio Item 3-->
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/logo-android.png" alt="logo android" />
+                    </div>
+                </div>
+                <!-- Portfolio Item 4-->
+                <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/logo-merci2.png" alt="logo solidarité" />
+                    </div>
+                </div>
+                <!-- Portfolio Item 5-->
+                <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/magnertic.png" alt="logo magnetic" />
+                    </div>
+                </div>
+                <!-- Portfolio Item 6-->
+                <div class="col-md-6 col-lg-4">
+                    <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
+                        <div
+                            class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-content text-center text-white"><i
+                                    class="fas fa-plus fa-3x"></i></div>
+                        </div>
+                        <img class="img-fluid" src="assets/img/portfolio/logo_mdl.jpg" alt="logo de MDL" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section-->
+    <section class="page-section bg-primary text-white mb-0" id="about">
+        <div class="container">
+            <!-- About Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-white">Qui suis-je ?</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- About Section Content-->
+            <div class="row">
+                <div class="col-lg-4 ml-auto">
+                    <p class="lead">Je me présente, je suis LAUDE Thibault, étudiant à l'école IPI sur Lyon. 
+                        Je suis actuellement dans la formation concepteur développeur Full-Stack et je suis en contrat d'alternance avec l'entreprise Adjectif.
+                        Passionné de l'informatique et prêt à utiliser cette passion pour vous !
+                        Vous pouvez retrouver sur ce portfolio mes différents projets et toute autres choses à mon
+                        sujet.
+                    </p>
+                </div>
+                <div class="col-lg-4 mr-auto">
+                    <p class="lead">J'ai bien entendu d'autres passions que l'informatique. En effet, je suis tout aussi
+                        passionné dans le domaine du Jeux-Vidéo. Ce qui m'a amené dans l'informatique.
+                        Je joue à différents types de Jeux, mais j'ai une préférence pour l'aventure et l'histoire que
+                        cela apporte.
+                        Toutes les émotions que l'on peut avoir sont incroyables et je veux essayer de retransmettre ce
+                        sentiment dans mes codes.
+                    </p>
+                </div>
+            </div>
+            <!-- About Section Button-->
+            <div class="text-center mt-4">
+                <a class="btn btn-xl btn-outline-light" target="_blank" href="assets/img/fichiers/CV.pdf">
+                    <i class="fas fa-download mr-2"></i>
+                    Curriculum Vitæ
+                </a>
+            </div>
+            <div class="text-center mt-4">
+                <a class="btn btn-xl btn-outline-light" target="_blank" href="assets/img/fichiers/LC2019-2021.pdf">
+                    <i class="fas fa-download mr-2"></i>
+                    Livret des compétences BTS SIO 2019-2021
+                </a>
+            </div>
+            <div class="text-center mt-4">
+                <a class="btn btn-xl btn-outline-light" target="_blank" href="assets/img/fichiers/TS.2019-2022.pdf">
+                    <i class="fas fa-download mr-2"></i>
+                    Tableau de synthèses des réalisations professionnelles 2019-2022
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Location-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Secteur</h4>
+                    <p class="lead mb-0">
+                        Lyon
+                    </p>
+                </div>
+                <!-- Footer Social Icons-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Liens Sociaux</h4>
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/SirHautDeFraise"><i
+                            class="fab fa-fw fa-facebook-f"></i></a>
+                    <!-- <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/laude_thibault"><i
+                            class="fab fa-fw fa-twitter"></i></a> -->
+                    <a class="btn btn-outline-light btn-social mx-1"
+                        href="https://www.linkedin.com/in/thibaultlaude/"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/SirHautDeFraise"><i
+                            class="fab fa-fw fa-github"></i></a>
+                </div>
+                <!-- Footer About Text-->
+                <div class=" col-lg-4">
+                    <h4 class="text-uppercase mb-4">Thème : Freelancer</h4>
+                    <p class="lead mb-0">
+                        Freelancer est un thème gratuit réalisé par
+                        <a href="http://startbootstrap.com"> Bootstrap</a>
+                        .
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Copyright Section-->
+    <div class="copyright py-4 text-center text-white">
+        <div class="container"><small>Copyright © <a href="mailto:laudethibault_pro@outlook.fr">LAUDE Thibault</a>
+                2022</small></div>
+    </div>
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+    <div class="scroll-to-top d-lg-none position-fixed">
+        <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i
+                class="fa fa-chevron-up"></i></a>
+    </div>
+    <!-- Portfolio Modals-->
+
+    <div class="portfolio-modal modal fade" id="portfolioModalGD" tabindex="-1" role="dialog"
+        aria-labelledby="portfolioModalGD" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                    id="portfolioModalGD">Gloss Design</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/logo_gloss.svg" alt="logo gloss design" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-5">Création du site web, sous WordPress, pour l'entreprise Gloss Design. <br>
+                                    Mise en place de l'administration possible pour le client. Avec un ajout automatique contenu pour les réalisations.<br>
+                                    Ce projet a été réalisé dans le cadre de mon contrat d'apprentissage auprès de l'entreprise Adjectif.
+                                </p>
+                                <a class="btn btn-xl" target="_blank" href="https://www.glossdesign.fr/">
+                                    <i class="fas fa-download mr-2"></i>
+                                    Lien du site
+                                </a>
+                                <br>
+                                <button class="btn btn-primary" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Fermer
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
+
+    <div class="portfolio-modal modal fade" id="portfolioModalAJ" tabindex="-1" role="dialog"
+        aria-labelledby="portfolioModalAJ" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                    id="portfolioModalAJ">Outil Emailing</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/logo_adjectif.png" alt="logo adjectif" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-5">Création d'un outil permettant la modification du contenu d'un fichier html.<br>
+                                    Dans ce cas, l'outil va gérer la modification de kit emailing. Il va modifier les liens et ajouter les images en local.<br>
+                                    Actuellement, l'outil n'est pas terminé, car il est géré lors de mon temp libres.<br>
+                                    Ce projet a été réalisé dans le cadre de mon contrat d'apprentissage auprès de l'entreprise Adjectif.
+                                </p>
+                                <a class="btn btn-xl" target="_blank" href="https://github.com/SirHautDeFraise/outil-emailing">
+                                    <i class="fas fa-download mr-2"></i>
+                                    Lien du dépot GitHub
+                                </a>
+                                <br>
+                                <button class="btn btn-primary" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Fermer
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="portfolioModalTW" tabindex="-1" role="dialog"
+        aria-labelledby="portfolioModalTW" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                    id="portfolioModalTW">Project MESI - Tower Defense (Jeux-Vidéo)</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/logo_ipi.png" alt="logo ipi" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-5">Création d'un Jeux-Vidéo, sous Unity, en groupe dans le cadre du project MESI.<br>
+                                    Pour valider la licence developpeur Full-Stack à l'IPI de Lyon, nous avons commencé la réalisations d'un Jeux-Vidéo de type Tower Defense.<br>
+                                    Ce projet est réaliser en groupe avec d'autre étudiants 
+                                </p>
+                                <a class="btn btn-xl" target="_blank" href="https://github.com/Dekleor/TowerDefenseIPI">
+                                    <i class="fas fa-download mr-2"></i>
+                                    Lien du dépot GitHub
+                                </a>
+                                <br>
+                                <button class="btn btn-primary" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Fermer
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 1-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog"
+        aria-labelledby="portfolioModal1Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                    id="portfolioModal1Label">GSB</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/php.svg" alt="logo php" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-5">Création d'une application web gérant des visiteurs médicaux et des
+                                    comptables pour la société Galaxy Swiss Bourdin.
+                                </p>
+                                <a class="btn btn-xl" target="_blank" href="https://github.com/dussartcorp/Gsb">
+                                    <i class="fas fa-download mr-2"></i>
+                                    Lien du dêpot GitHub
+                                </a>
+                                <br>
+                                <button class="btn btn-primary" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Fermer
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 2-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog"
+        aria-labelledby="portfolioModal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                    id="portfolioModal2Label">Nolark</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/HTML5.png"
+                                    alt="logo HTML5" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-5">Réalisation d'un site vitrine pour un magasin de casques de motos.
+                                </p>
+                                <a class="btn btn-xl" target="_blank" href="https://github.com/SirHautDeFraise/Nolark">
+                                    <i class="fas fa-download mr-2"></i>
+                                    Lien du dêpot GitHub
+                                </a>
+                                <br>
+                                <button class="btn btn-primary" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Fermer
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 3-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog"
+        aria-labelledby="portfolioModal3Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                    id="portfolioModal3Label">Pengren shipu</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/android-studio-logo.png"
+                                    alt="logo android studio" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-5">Application android de jeu de cuisine.
+                                    On choisit un plat/recette (4 proposés), et on sélectionne les ingrédients sous la
+                                    forme d'un quizz.
+                                    A la fin, on peut procéder à l'assaisonnement. Une note allant jusqu'a 5 sera
+                                    attribuée à la fin.
+                                </p>
+                                <a class="btn btn-xl" target="_blank" href="https://www.plectica.com/maps/EU5NBW63B">
+                                    <i class="fas fa-download mr-2"></i>
+                                    Lien de la carte mentale
+                                </a>
+                                <br>
+                                <button class="btn btn-primary" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Fermer
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 4-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog"
+        aria-labelledby="portfolioModal4Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                    id="portfolioModal4Label">Bonaparte Solidarité</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/HTML5.png"
+                                    alt="logo html5" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-5">Création d'un site dans le cadre du COVID-19.
+                                    Ce projet avait pour but de rassembler les initiatives de dessin, photo, vidéos de
+                                    chaque parent, professeurs du lycée Bonaparte.
+                                </p>
+                                <a class="btn btn-xl" target="_blank"
+                                    href="https://github.com/team-pomodoro/lyc_bona_solidarite">
+                                    <i class="fas fa-download mr-2"></i>
+                                    Lien du dêpot GitHub
+                                </a>
+                                <br>
+                                <button class="btn btn-primary" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Fermer
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 5-->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog"
+        aria-labelledby="portfolioModal5Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                    id="portfolioModal5Label">Magnetic Clothing</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/WordPress.png"
+                                    alt="logo de wordpress" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-5">J'ai effectué un stage pour la boutique de vêtement Magnetic Clothing
+                                    où,
+                                    je devais réaliser une nouvelle version de leur site.
+                                </p>
+                                <a class="btn btn-xl" target="_blank" href="https://magnetic-clothing.com/">
+                                    <i class="fas fa-download mr-2"></i>
+                                    Lien du site
+                                </a>
+                                <br>
+                                <button class="btn btn-primary" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Fermer
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio Modal 6-->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog"
+        aria-labelledby="portfolioModal6Label" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                </button>
+                <div class="modal-body text-center">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0"
+                                    id="portfolioModal6Label">Maison des ligues</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Image-->
+                                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/symfony.svg"
+                                    alt="Logo symfony" />
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-5">Réalisation d'une application web sous symfony pour le cadre
+                                    d'évenements sportifs.
+                                </p>
+                                <a class="btn btn-xl" target="_blank"
+                                    href="https://github.com/SirHautDeFraise/maisondesligues">
+                                    <i class="fas fa-download mr-2"></i>
+                                    Lien du dêpot GitHub
+                                </a>
+                                <br>
+                                <button class="btn btn-primary" data-dismiss="modal">
+                                    <i class="fas fa-times fa-fw"></i>
+                                    Fermer
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
 </body>
+
+</html>
