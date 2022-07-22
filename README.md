@@ -36,6 +36,3 @@ Pour me contacter, merci d'utilisé la fonction **Discussion** de **Github**.
   
 Copyright © LAUDE Thibault 2020
 
------
-### Test
-
