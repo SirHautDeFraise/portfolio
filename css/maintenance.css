@@ -1,14 +1,19 @@
 h1 {
-    font-size: 4rem;
-    margin-bottom: 10rem;
+  font-size: 4rem;
+  margin-bottom: 10rem;
+  color: white;
 }
 
 p {
-    font-size: 2rem;
+  font-size: 2rem;
+  color: white;
 }
 
 .maintenance {
-    text-align: center;
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+  text-align: center;
+  background: radial-gradient(
+    circle,
+    rgba(81, 92, 110, 1) 0%,
+    rgba(80, 67, 88, 1) 100%
+  );
 }
-
